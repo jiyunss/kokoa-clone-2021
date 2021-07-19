@@ -17,10 +17,11 @@
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin: 0px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon-image {
@@ -37,4 +38,16 @@
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+
+.more-suggestions__icon span {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-display: center;
 }

@@ -56,3 +56,15 @@
 .user-component__friends {
   margin: 25px 0;
 }
+
+.user-component__column-music span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #06e100;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.user-component__column-music i {
+  color: #06e100;
+}
