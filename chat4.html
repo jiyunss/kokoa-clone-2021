@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Calcifer  - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fas fa-angle-left fa-3x"></i> 
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Calcifer</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+    
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        Sunday, July 18, 2021
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">See you next time.</span>
+            <span class="message__time">21:59</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="https://obj-sg.thewiki.kr/data/ed9598ec9ab8ec9d9820ec9b80eca781ec9db4eb8a9420ec84b120ecba98ec8b9ced8dbc2e6a7067.jpg">
+        <div class="message-row__content">
+          <span class="message__author">Calcifer</span>
+          <div class="message__info">
+            <img id="cocoa-emoticon" src="https://cdn.clien.net/web/api/file/F01/5855603/3151637b2d785.gif?w=390&h=30000&gif=true&thumb=true">
+            <span class="message__time">22:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="https://obj-sg.thewiki.kr/data/ed9598ec9ab8ec9d9820ec9b80eca781ec9db4eb8a9420ec84b120ecba98ec8b9ced8dbc2e6a7067.jpg">
+        <div class="message-row__content">
+          <span class="message__author">Calcifer</span>
+          <div class="message__info">
+            <span class="message__bubble">ok, CU!</span>
+            <span class="message__time">22:00</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <img id="cocoa-emoticon" src="https://i.pinimg.com/originals/6d/8c/56/6d8c56757faff690163efbb7a4f57faf.gif">
+            <span class="message__time">22:00</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message... " />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    
+    <div id="no-mobile">
+      <span>You screen is too big ㅠㅠ</span>
+    </div>
+    
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
